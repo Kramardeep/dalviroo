@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var pug = require('pug');
-var htmlToPdf = require('html-to-pdf');
+var htmlToPdf = require('html-pdf');
 var path = require('path');
 
 var orderService = require('../services/orderService');
@@ -27,21 +27,20 @@ router.get('/generateReport', function (req, res, next) {
   orderService.findAllOrder().then((orders) => {
     var filePath = path.join(__dirname, '..', 'views', 'report.jade');
     var fn = pug.compileFile(filePath);
-    var html = fn({title: 'Report', orders: orders});
+    var html = fn({ title: 'Report', orders: orders });
 
-    console.log("filepath", filePath);
-    console.log("pdf", path.join(__dirname, 'report.pdf'));
-    
-    htmlToPdf.convertHTMLString(html, path.join(__dirname, 'report.pdf'),
-    function (error, success) {
-        if (error) {
-          res.render('error', { error: error });
-        } else {
-          res.download(__dirname+'/report.pdf');
-        }
+    var filename = 'Report-'+ Date().toISOString();
+    htmlToPdf.create(html).toBuffer(function (err, buffer) {
+      res.writeHead(200,{
+        'Content-Type': 'application/pdf',
+        'Access-Control-Allow-Origin': '*',
+        'Content-Disposition': 'attachment; filename='+filename
       });
-    }).catch((err) => {
-      res.render('error', { error: err });
+      res.write(buffer);
+      res.end();
+    });
+  }).catch((err) => {
+    res.render('error', { error: err });
   });
 });
 
