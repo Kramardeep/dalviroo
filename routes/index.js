@@ -30,9 +30,9 @@ router.get('/generateReport', function (req, res, next) {
     var html = fn({title: 'Report', orders: orders});
 
     console.log("filepath", filePath);
-    console.log("pdf", __dirname+'/report.pdf');
+    console.log("pdf", path.join(__dirname, 'report.pdf'));
     
-    htmlToPdf.convertHTMLString(html, __dirname+'/report.pdf',
+    htmlToPdf.convertHTMLString(html, path.join(__dirname, 'report.pdf'),
     function (error, success) {
         if (error) {
           res.render('error', { error: error });
