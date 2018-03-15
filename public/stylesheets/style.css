@@ -1,0 +1,22 @@
+body {
+  padding: 10px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+button {
+  width: 100px;
+}
+
+.print-btn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 29px;
+}
+
+.title {
+  display: inline-block
+}

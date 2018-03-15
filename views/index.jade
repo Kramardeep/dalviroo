@@ -1,0 +1,38 @@
+extends layout
+
+block script
+  script(src="/socket.io/socket.io.js")
+  script(type='text/javascript').
+    var ordersArr = !{JSON.stringify(orders)};
+  script(src="/javascripts/custom.js")
+
+block content
+  div.page-header
+    h1.title= title
+    a(href="/generateReport")
+      button.btn.btn-info.pull-right.print-btn
+        span.glyphicon.glyphicon-circle-arrow-down
+
+  table.table
+    thead
+     tr
+      th Name
+      th Quantity
+      th Created-till-now
+      th Predicted
+      th Status
+    tbody#display
+      each order,index in orders
+        tr(id= order._id)
+          td= order.name
+          td= order.quantity
+          td= order.createdTillNow
+          td= order.predicted
+          td
+            if order.status
+              button.btn.btn-success(disabled="true")
+                span="Completed"
+            else
+              button.btn.btn-success( onclick='changeStatus(#{JSON.stringify(order)})')
+                span.glyphicon.glyphicon-ok
+             

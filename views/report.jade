@@ -1,0 +1,16 @@
+block content
+  h1=title
+
+  div#report
+    table.table.table-bordered
+        thead
+        tr
+          th Dish name
+          th Produced
+          th Predicted
+        tbody
+          each order,index in orders
+            tr(id= order._id)
+              td= order.name
+              td= order.createdTillNow
+              td= order.predicted

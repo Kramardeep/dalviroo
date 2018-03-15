@@ -1,0 +1,192 @@
+2018-03-13T17:40:42.947Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2018-03-13T17:40:42.948Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2018-03-13T17:40:42.954Z - info: Searching for available extensions in C:\Users\AM356392\Desktop\dalviroo\
+2018-03-13T17:40:42.959Z - info: Extensions location cache not found, crawling directories
+2018-03-13T17:40:49.768Z - info: Found 30 extensions
+2018-03-13T17:40:49.807Z - debug: Writing extension locations cache to C:\Users\AM356392\AppData\Local\Temp\jsreport\core\locations.json
+2018-03-13T17:40:49.810Z - debug: Discovered 30 extensions
+2018-03-13T17:40:49.812Z - info: Using extension import-export
+2018-03-13T17:40:52.427Z - info: Using extension tags
+2018-03-13T17:40:52.516Z - info: Using extension templates
+2018-03-13T17:40:53.110Z - info: Using extension jsrender
+2018-03-13T17:40:53.112Z - info: Using extension authentication
+2018-03-13T17:40:54.890Z - debug: Extension authentication was disabled
+2018-03-13T17:40:54.891Z - info: Using extension cli
+2018-03-13T17:40:54.893Z - info: Using extension handlebars
+2018-03-13T17:40:54.911Z - info: Using extension debug
+2018-03-13T17:40:54.920Z - info: Using extension express
+2018-03-13T17:40:55.629Z - info: Using extension fop-pdf
+2018-03-13T17:40:55.670Z - info: Using extension phantom-pdf
+2018-03-13T17:40:55.833Z - info: Using extension fs-store
+2018-03-13T17:40:56.958Z - debug: Extension fs-store was disabled
+2018-03-13T17:40:56.960Z - info: Using extension authorization
+2018-03-13T17:40:56.982Z - debug: Extension authorization was disabled
+2018-03-13T17:40:56.985Z - info: Using extension images
+2018-03-13T17:40:57.068Z - info: Using extension child-templates
+2018-03-13T17:40:57.639Z - info: Using extension browser-client
+2018-03-13T17:40:57.649Z - info: Using extension licensing
+2018-03-13T17:40:58.438Z - info: Using extension data
+2018-03-13T17:40:58.455Z - info: Using extension text
+2018-03-13T17:40:58.474Z - info: Using extension reports
+2018-03-13T17:40:58.537Z - info: Using extension resources
+2018-03-13T17:40:58.552Z - info: Using extension base
+2018-03-13T17:40:58.559Z - info: Using extension studio
+2018-03-13T17:40:59.004Z - info: Using extension html-to-xlsx
+2018-03-13T17:40:59.739Z - info: Using extension scripts
+2018-03-13T17:40:59.754Z - info: Using extension assets
+2018-03-13T17:41:00.532Z - info: Using extension scheduling
+2018-03-13T17:41:01.216Z - info: Using extension xlsx
+2018-03-13T17:41:03.985Z - info: Using extension sample-template
+2018-03-13T17:41:04.005Z - debug: Creating samples is disabled
+2018-03-13T17:41:04.006Z - info: Using extension public-templates
+2018-03-13T17:41:04.032Z - debug: Extension public-templates was disabled
+2018-03-13T17:41:04.382Z - info: Creating memory store
+2018-03-13T17:41:04.456Z - info: Creating default express app.
+2018-03-13T17:41:05.184Z - info: jsreport server successfully started on http port: 52920
+2018-03-13T17:41:05.186Z - info: Verifying license key free
+2018-03-13T17:41:05.189Z - info: Using free license
+2018-03-13T17:41:05.191Z - info: reporter initialized
+2018-03-13T17:42:39.182Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2018-03-13T17:42:39.184Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2018-03-13T17:42:39.185Z - info: Searching for available extensions in C:\Users\AM356392\Desktop\dalviroo\
+2018-03-13T17:42:39.192Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\AM356392\Desktop\dalviroo\node_modules\
+2018-03-13T17:42:39.202Z - info: Found 30 extensions
+2018-03-13T17:42:39.207Z - debug: Writing extension locations cache to C:\Users\AM356392\AppData\Local\Temp\jsreport\core\locations.json
+2018-03-13T17:42:39.209Z - debug: Discovered 30 extensions
+2018-03-13T17:42:39.211Z - info: Using extension import-export
+2018-03-13T17:42:39.213Z - info: Using extension tags
+2018-03-13T17:42:39.213Z - info: Using extension templates
+2018-03-13T17:42:39.215Z - info: Using extension jsrender
+2018-03-13T17:42:39.216Z - info: Using extension authentication
+2018-03-13T17:42:39.217Z - debug: Extension authentication was disabled
+2018-03-13T17:42:39.218Z - info: Using extension cli
+2018-03-13T17:42:39.218Z - info: Using extension handlebars
+2018-03-13T17:42:39.220Z - info: Using extension debug
+2018-03-13T17:42:39.222Z - info: Using extension express
+2018-03-13T17:42:39.224Z - info: Using extension fop-pdf
+2018-03-13T17:42:39.225Z - info: Using extension phantom-pdf
+2018-03-13T17:42:39.228Z - info: Using extension fs-store
+2018-03-13T17:42:39.228Z - debug: Extension fs-store was disabled
+2018-03-13T17:42:39.231Z - info: Using extension authorization
+2018-03-13T17:42:39.231Z - debug: Extension authorization was disabled
+2018-03-13T17:42:39.233Z - info: Using extension images
+2018-03-13T17:42:39.234Z - info: Using extension child-templates
+2018-03-13T17:42:39.235Z - info: Using extension browser-client
+2018-03-13T17:42:39.236Z - info: Using extension licensing
+2018-03-13T17:42:39.237Z - info: Using extension data
+2018-03-13T17:42:39.239Z - info: Using extension text
+2018-03-13T17:42:39.240Z - info: Using extension reports
+2018-03-13T17:42:39.241Z - info: Using extension resources
+2018-03-13T17:42:39.242Z - info: Using extension base
+2018-03-13T17:42:39.243Z - info: Using extension studio
+2018-03-13T17:42:39.243Z - info: Using extension html-to-xlsx
+2018-03-13T17:42:39.243Z - info: Using extension scripts
+2018-03-13T17:42:39.244Z - info: Using extension assets
+2018-03-13T17:42:39.245Z - info: Using extension scheduling
+2018-03-13T17:42:39.247Z - info: Using extension xlsx
+2018-03-13T17:42:39.248Z - info: Using extension sample-template
+2018-03-13T17:42:39.250Z - debug: Creating samples is disabled
+2018-03-13T17:42:39.251Z - info: Using extension public-templates
+2018-03-13T17:42:39.253Z - debug: Extension public-templates was disabled
+2018-03-13T17:42:39.255Z - info: Creating memory store
+2018-03-13T17:42:39.275Z - info: Creating default express app.
+2018-03-13T17:42:39.295Z - info: jsreport server successfully started on http port: 52933
+2018-03-13T17:42:39.297Z - info: Verifying license key free
+2018-03-13T17:42:39.300Z - info: Using free license
+2018-03-13T17:42:39.304Z - info: reporter initialized
+2018-03-13T17:44:12.265Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2018-03-13T17:44:12.267Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2018-03-13T17:44:12.272Z - info: Searching for available extensions in C:\Users\AM356392\Desktop\dalviroo\
+2018-03-13T17:44:12.282Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\AM356392\Desktop\dalviroo\node_modules\
+2018-03-13T17:44:12.294Z - info: Found 30 extensions
+2018-03-13T17:44:12.329Z - debug: Writing extension locations cache to C:\Users\AM356392\AppData\Local\Temp\jsreport\core\locations.json
+2018-03-13T17:44:12.332Z - debug: Discovered 30 extensions
+2018-03-13T17:44:12.334Z - info: Using extension import-export
+2018-03-13T17:44:12.832Z - info: Using extension tags
+2018-03-13T17:44:12.850Z - info: Using extension templates
+2018-03-13T17:44:12.921Z - info: Using extension jsrender
+2018-03-13T17:44:12.924Z - info: Using extension authentication
+2018-03-13T17:44:13.110Z - debug: Extension authentication was disabled
+2018-03-13T17:44:13.112Z - info: Using extension cli
+2018-03-13T17:44:13.115Z - info: Using extension handlebars
+2018-03-13T17:44:13.118Z - info: Using extension debug
+2018-03-13T17:44:13.122Z - info: Using extension express
+2018-03-13T17:44:13.216Z - info: Using extension fop-pdf
+2018-03-13T17:44:13.230Z - info: Using extension phantom-pdf
+2018-03-13T17:44:13.290Z - info: Using extension fs-store
+2018-03-13T17:44:13.453Z - debug: Extension fs-store was disabled
+2018-03-13T17:44:13.453Z - info: Using extension authorization
+2018-03-13T17:44:13.458Z - debug: Extension authorization was disabled
+2018-03-13T17:44:13.460Z - info: Using extension images
+2018-03-13T17:44:13.471Z - info: Using extension child-templates
+2018-03-13T17:44:13.545Z - info: Using extension browser-client
+2018-03-13T17:44:13.549Z - info: Using extension licensing
+2018-03-13T17:44:13.675Z - info: Using extension data
+2018-03-13T17:44:13.678Z - info: Using extension text
+2018-03-13T17:44:13.680Z - info: Using extension reports
+2018-03-13T17:44:13.688Z - info: Using extension resources
+2018-03-13T17:44:13.692Z - info: Using extension base
+2018-03-13T17:44:13.694Z - info: Using extension studio
+2018-03-13T17:44:13.754Z - info: Using extension html-to-xlsx
+2018-03-13T17:44:13.869Z - info: Using extension scripts
+2018-03-13T17:44:13.874Z - info: Using extension assets
+2018-03-13T17:44:13.958Z - info: Using extension scheduling
+2018-03-13T17:44:14.057Z - info: Using extension xlsx
+2018-03-13T17:44:14.458Z - info: Using extension sample-template
+2018-03-13T17:44:14.462Z - debug: Creating samples is disabled
+2018-03-13T17:44:14.464Z - info: Using extension public-templates
+2018-03-13T17:44:14.474Z - debug: Extension public-templates was disabled
+2018-03-13T17:44:14.568Z - info: Creating memory store
+2018-03-13T17:44:14.626Z - info: Initializing jsreport@1.10.0 in development mode using configuration file: none
+2018-03-13T17:44:14.627Z - info: Setting process based strategy for rendering. Please visit http://jsreport.net/learn/configuration for information how to get more performance.
+2018-03-13T17:44:14.629Z - info: Searching for available extensions in C:\Users\AM356392\Desktop\dalviroo\
+2018-03-13T17:44:14.631Z - info: Creating default express app.
+2018-03-13T17:44:14.730Z - info: jsreport server successfully started on http port: 52968
+2018-03-13T17:44:14.732Z - info: Verifying license key free
+2018-03-13T17:44:14.735Z - info: Using free license
+2018-03-13T17:44:14.739Z - info: reporter initialized
+2018-03-13T17:44:14.750Z - info: Extensions location cache contains up to date information, skipping crawling in C:\Users\AM356392\Desktop\dalviroo\node_modules\
+2018-03-13T17:44:14.761Z - info: Found 30 extensions
+2018-03-13T17:44:14.764Z - debug: Writing extension locations cache to C:\Users\AM356392\AppData\Local\Temp\jsreport\core\locations.json
+2018-03-13T17:44:14.768Z - debug: Discovered 30 extensions
+2018-03-13T17:44:14.770Z - info: Using extension import-export
+2018-03-13T17:44:14.773Z - info: Using extension tags
+2018-03-13T17:44:14.774Z - info: Using extension templates
+2018-03-13T17:44:14.775Z - info: Using extension jsrender
+2018-03-13T17:44:14.776Z - info: Using extension authentication
+2018-03-13T17:44:14.779Z - debug: Extension authentication was disabled
+2018-03-13T17:44:14.782Z - info: Using extension cli
+2018-03-13T17:44:14.783Z - info: Using extension handlebars
+2018-03-13T17:44:14.784Z - info: Using extension debug
+2018-03-13T17:44:14.789Z - info: Using extension express
+2018-03-13T17:44:14.791Z - info: Using extension fop-pdf
+2018-03-13T17:44:14.793Z - info: Using extension phantom-pdf
+2018-03-13T17:44:14.796Z - info: Using extension fs-store
+2018-03-13T17:44:14.798Z - debug: Extension fs-store was disabled
+2018-03-13T17:44:14.799Z - info: Using extension authorization
+2018-03-13T17:44:14.800Z - debug: Extension authorization was disabled
+2018-03-13T17:44:14.801Z - info: Using extension images
+2018-03-13T17:44:14.803Z - info: Using extension child-templates
+2018-03-13T17:44:14.804Z - info: Using extension browser-client
+2018-03-13T17:44:14.805Z - info: Using extension licensing
+2018-03-13T17:44:14.807Z - info: Using extension data
+2018-03-13T17:44:14.808Z - info: Using extension text
+2018-03-13T17:44:14.809Z - info: Using extension reports
+2018-03-13T17:44:14.810Z - info: Using extension resources
+2018-03-13T17:44:14.812Z - info: Using extension base
+2018-03-13T17:44:14.813Z - info: Using extension studio
+2018-03-13T17:44:14.815Z - info: Using extension html-to-xlsx
+2018-03-13T17:44:14.815Z - info: Using extension scripts
+2018-03-13T17:44:14.818Z - info: Using extension assets
+2018-03-13T17:44:14.819Z - info: Using extension scheduling
+2018-03-13T17:44:14.821Z - info: Using extension xlsx
+2018-03-13T17:44:14.822Z - info: Using extension sample-template
+2018-03-13T17:44:14.824Z - debug: Creating samples is disabled
+2018-03-13T17:44:14.825Z - info: Using extension public-templates
+2018-03-13T17:44:14.826Z - debug: Extension public-templates was disabled
+2018-03-13T17:44:14.828Z - info: Creating memory store
+2018-03-13T17:44:14.860Z - info: Creating default express app.
+2018-03-13T17:44:14.886Z - info: jsreport server successfully started on http port: 52969
+2018-03-13T17:44:14.887Z - info: Verifying license key free
+2018-03-13T17:44:14.889Z - info: Using free license
+2018-03-13T17:44:14.891Z - info: reporter initialized
